@@ -1,4 +1,7 @@
-h1 {
-    color: pink;
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: mediumpurple
 }
 
