@@ -25,14 +25,54 @@ nav {
 
 }
 
+
+#projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#StarWarsFilms > img {
+    width: 300px;
+}
+
+#StarWarsCharacters > img {
+    width: 400px;
+}
+
+#StarWarsStarships > img {
+    width: 355px;
+}
+
+#Pokemon > img {
+    width: 355px;
+}
+
+#Badges {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Badges > img {
+    width: 200px;
+}
+
 #Fourboxes {
     display: flex;
     justify-content: space-evenly;
 }
 
+#ContactP {
+    display: flex;
+    justify-content: center;
+}
+
 #Footerh1 {
     display: flex;
     justify-content: center;
+    margin-bottom: -35px;
 }
 
 #Footer {
