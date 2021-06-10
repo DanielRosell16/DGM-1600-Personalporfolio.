@@ -6,6 +6,7 @@
   height: 100vh;
   align-items: center;
   font-size: 30px;
+  color: black;
 }
 
 #welcome-section > p {
@@ -32,12 +33,13 @@ li {
   top: 0%;
   left: -2%;
   width: 100%;
-  background-color: tomato;
+  background-color: rgb(217, 231, 249);
   margin-right: 20px;
   margin-top: 0px;
   margin-right: 0px;
   padding-top: 10px;
   padding-right: 10px;
+  color: black;
 }
 
 #navlist {
@@ -46,18 +48,20 @@ li {
 }
 
 #Projectssection {
-  padding: 25px;
+  padding: 200px;
   padding-left: 10px;
   width: 100%;
+  margin: 0px;
   margin-left: -5px;
-  background-color: thistle;
+  color: black;
+  background-color: rgb(195, 205, 217);
 }
 
 #projects {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 25px;
-  font-size: 30px;
+  text-align:center;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-size: 40px;
   text-decoration: underline;
   padding-top: 0px;
 }
@@ -99,17 +103,25 @@ justify-content: space-evenly;
   flex-flow: wrap;
 }
 
-#ContactP {
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
-  margin-top: -75px;
-  margin-bottom: 50px;
+#Footerh1 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 200px;
+  color: black;
 }
 
-#Footerh1 {
+#ContactP {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+  color: black;
+}
+
+#Callus {
   display: flex;
-  justify-content: center;
-  margin-bottom: -35px;
-  font-size: 35px;
+  justify-content: space-around;
+}
+
+#copyright {
+  color: black;
 }
